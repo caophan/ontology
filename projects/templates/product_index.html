@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% block page_content %}
+<h1>Products</h1>
+<div>
+    <form action="{% url 'product_search' %}" method="POST">
+      {% csrf_token %}
+      <input name="q" type="text" placeholder="Search...">
+      <button type="submit"><i class="fa fa-search"></i></button>
+    </form>
+</div>
+<div class="row">
+{% for product in products %}
+    <div class="col-md-4">
+        <div class="card mb-2">
+            <div class="card-body">
+                <h5 class="card-title">{{ product.name }}</h5>
+                <p class="card-text">
+                    {% for teacher in product.teachers %}
+                        <a href="{% url 'teacher_detail' teacher.id %}">
+                            {{teacher.name}}
+                        </a>
+                    {% endfor %}
+                 </p>
+                <a href="{% url 'product_detail' product.id %}"
+                   class="btn btn-primary">
+                    Detail
+                </a>
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+{% endblock %}

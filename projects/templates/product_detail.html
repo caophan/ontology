@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block page_content %}
+<h1>{{ product.name}}</h1>
+<div>
+    <h5>Link:</h5>
+    <p>{{ product.link }}</p>
+    <h5>Summary:</h5>
+    <p>{{ product.summary}}</p>
+    <h5>Subject:</h5>
+    <p>{{ product.subject.name }}</p>
+    <h5>Year:</h5>
+    <p>{{ product.year }}</p>
+    <h5>Teachers:</h5>
+    <p>
+        {% for teacher in product.teachers %}
+            <a href="{% url 'teacher_detail' teacher.id %}">
+                {{teacher.name}}
+            </a>
+        {% endfor %}
+    </p>
+</div>
+{% endblock %}

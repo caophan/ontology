@@ -1,0 +1,2234 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/quanlidetai"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/quanlidetai">
+    <Prefix name="" IRI="http://www.semanticweb.org/quanlidetai"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AV"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CHUC_VU"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#DDDH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GIAO_VIEN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#HOA"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#KHKT"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#LY_CN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NAM_HOC"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NCKHSPUD"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SANPHAM"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SINH"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SKKN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TD-ANQP"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TOAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#TO_BO_MON"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#VAN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#XAHOI"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#CV_co_GV"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#GV_co_CV"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bm_co_gv"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#bm_co_sp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#nam_co_sp"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#DIA_CHI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#EMAIL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#HO_TEN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NGAY_SINH"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NOI_SINH"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#NamVaoNganh"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#QUE_QUAN"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SDT"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#SP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TEN_BM"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TEN_CV"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#TEN_SP"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#link"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#tom_tat"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANH_VAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ANQP"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BTCB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BTĐT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CTCĐ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DD1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#DIA"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GDCD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV01"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV02"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV03"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV04"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV05"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV06"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV07"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV08"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV09"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GV10"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HOA_HOC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#HT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KH01LY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KTCN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#KTNN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#NGU_VAN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBTCB"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PBTĐT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PCTCĐ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PHT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PTT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SINH_HOC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SKKN1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SKKN2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#SU"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TD"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TTCĐ"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2015-2016"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2016-2017"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2017-2018"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2018-2019"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#2019-2020"/>
+    </Declaration>
+    <Declaration>
+        <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AV"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#DDDH"/>
+        <Class IRI="#SANPHAM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#HOA"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#KHKT"/>
+        <Class IRI="#SANPHAM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#LY_CN"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NCKHSPUD"/>
+        <Class IRI="#SANPHAM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SINH"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SKKN"/>
+        <Class IRI="#SANPHAM"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TD-ANQP"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TIN"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#TOAN"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#VAN"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#XAHOI"/>
+        <Class IRI="#TO_BO_MON"/>
+    </SubClassOf>
+    <DisjointClasses>
+        <Class IRI="#CHUC_VU"/>
+        <Class IRI="#GIAO_VIEN"/>
+        <Class IRI="#SANPHAM"/>
+        <Class IRI="#TO_BO_MON"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#DDDH"/>
+        <Class IRI="#KHKT"/>
+        <Class IRI="#NCKHSPUD"/>
+        <Class IRI="#SKKN"/>
+    </DisjointClasses>
+    <DisjointClasses>
+        <Class IRI="#HOA"/>
+        <Class IRI="#LY_CN"/>
+        <Class IRI="#SINH"/>
+        <Class IRI="#TD-ANQP"/>
+        <Class IRI="#TIN"/>
+        <Class IRI="#TOAN"/>
+        <Class IRI="#VAN"/>
+        <Class IRI="#XAHOI"/>
+    </DisjointClasses>
+    <ClassAssertion>
+        <Class IRI="#AV"/>
+        <NamedIndividual IRI="#ANH_VAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#ANH_VAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TD-ANQP"/>
+        <NamedIndividual IRI="#ANQP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#ANQP"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#BTCB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#BTĐT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#CTCĐ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#DDDH"/>
+        <NamedIndividual IRI="#DD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SANPHAM"/>
+        <NamedIndividual IRI="#DD1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#DIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XAHOI"/>
+        <NamedIndividual IRI="#DIA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#GDCD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XAHOI"/>
+        <NamedIndividual IRI="#GDCD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#GIAO_VIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#HOA"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#HT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#KHKT"/>
+        <NamedIndividual IRI="#KH01LY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SANPHAM"/>
+        <NamedIndividual IRI="#KH01LY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LY_CN"/>
+        <NamedIndividual IRI="#KTCN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#KTCN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LY_CN"/>
+        <NamedIndividual IRI="#KTNN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#KTNN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NCKHSPUD"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SANPHAM"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#NGU_VAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#VAN"/>
+        <NamedIndividual IRI="#NGU_VAN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#PBTCB"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#PBTĐT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#PCTCĐ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#PHT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#PTT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SINH"/>
+        <NamedIndividual IRI="#SINH_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#SINH_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SANPHAM"/>
+        <NamedIndividual IRI="#SKKN1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SKKN"/>
+        <NamedIndividual IRI="#SKKN1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SANPHAM"/>
+        <NamedIndividual IRI="#SKKN2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#SKKN"/>
+        <NamedIndividual IRI="#SKKN2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#SU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#XAHOI"/>
+        <NamedIndividual IRI="#SU"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TD-ANQP"/>
+        <NamedIndividual IRI="#TD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#TD"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TIN"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TOAN"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#TT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#LY_CN"/>
+        <NamedIndividual IRI="#VL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#TO_BO_MON"/>
+        <NamedIndividual IRI="#VL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#2015-2016"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NAM_HOC"/>
+        <NamedIndividual IRI="#2015-2016"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#2016-2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NAM_HOC"/>
+        <NamedIndividual IRI="#2016-2017"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#2017-2018"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NAM_HOC"/>
+        <NamedIndividual IRI="#2017-2018"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#2018-2019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NAM_HOC"/>
+        <NamedIndividual IRI="#2018-2019"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#CHUC_VU"/>
+        <NamedIndividual IRI="#2019-2020"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#NAM_HOC"/>
+        <NamedIndividual IRI="#2019-2020"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#ANH_VAN"/>
+        <NamedIndividual IRI="#GV10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <NamedIndividual IRI="#DD1"/>
+        <NamedIndividual IRI="#GV01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <NamedIndividual IRI="#DD1"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <NamedIndividual IRI="#DD1"/>
+        <NamedIndividual IRI="#2019-2020"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV01"/>
+        <NamedIndividual IRI="#TT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+        <NamedIndividual IRI="#GV01"/>
+        <NamedIndividual IRI="#DD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV01"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV02"/>
+        <NamedIndividual IRI="#PTT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV02"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV03"/>
+        <NamedIndividual IRI="#VL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+        <NamedIndividual IRI="#GV04"/>
+        <NamedIndividual IRI="#KH01LY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV04"/>
+        <NamedIndividual IRI="#VL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV05"/>
+        <NamedIndividual IRI="#TT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV05"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV06"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV06"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV07"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+        <NamedIndividual IRI="#GV07"/>
+        <NamedIndividual IRI="#SKKN1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+        <NamedIndividual IRI="#GV07"/>
+        <NamedIndividual IRI="#SKKN2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV07"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+        <NamedIndividual IRI="#GV08"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV08"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV09"/>
+        <NamedIndividual IRI="#NGU_VAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <NamedIndividual IRI="#GV10"/>
+        <NamedIndividual IRI="#TT"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <NamedIndividual IRI="#GV10"/>
+        <NamedIndividual IRI="#ANH_VAN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+        <NamedIndividual IRI="#GV05"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+        <NamedIndividual IRI="#GV06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <NamedIndividual IRI="#GV04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <NamedIndividual IRI="#VL"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <NamedIndividual IRI="#2018-2019"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <NamedIndividual IRI="#GV08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <NamedIndividual IRI="#2015-2016"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#NGU_VAN"/>
+        <NamedIndividual IRI="#GV09"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#PTT"/>
+        <NamedIndividual IRI="#GV02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <NamedIndividual IRI="#GV07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <NamedIndividual IRI="#2016-2017"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <NamedIndividual IRI="#GV07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <NamedIndividual IRI="#2017-2018"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <NamedIndividual IRI="#GV07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <NamedIndividual IRI="#GV08"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <NamedIndividual IRI="#SKKN1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <NamedIndividual IRI="#SKKN2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+        <NamedIndividual IRI="#GV01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+        <NamedIndividual IRI="#GV02"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+        <NamedIndividual IRI="#DD1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#TT"/>
+        <NamedIndividual IRI="#GV01"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#TT"/>
+        <NamedIndividual IRI="#GV05"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#TT"/>
+        <NamedIndividual IRI="#GV10"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+        <NamedIndividual IRI="#GV06"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+        <NamedIndividual IRI="#GV07"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#VL"/>
+        <NamedIndividual IRI="#GV03"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <NamedIndividual IRI="#VL"/>
+        <NamedIndividual IRI="#GV04"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <NamedIndividual IRI="#VL"/>
+        <NamedIndividual IRI="#KH01LY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <NamedIndividual IRI="#2015-2016"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <NamedIndividual IRI="#2016-2017"/>
+        <NamedIndividual IRI="#SKKN1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <NamedIndividual IRI="#2017-2018"/>
+        <NamedIndividual IRI="#SKKN2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <NamedIndividual IRI="#2018-2019"/>
+        <NamedIndividual IRI="#KH01LY"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <NamedIndividual IRI="#2019-2020"/>
+        <NamedIndividual IRI="#DD1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#ANQP"/>
+        <Literal>An ninh quốc phòng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#BTCB"/>
+        <Literal>Bí thư chi bộ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#BTĐT"/>
+        <Literal>Bí thư đoàn trường</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#CTCĐ"/>
+        <Literal>Chủ tịch công đoàn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#DD1"/>
+        <Literal>Là sản phẩm dành cho chương trình Toán học 10 phần góc lượng giác</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#DD1"/>
+        <Literal>Mô hình góc và cung lượng giác</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_SP"/>
+        <NamedIndividual IRI="#DD1"/>
+        <Literal>Mô hình góc và cung lượng giác</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tom_tat"/>
+        <NamedIndividual IRI="#DD1"/>
+        <Literal>Là sản phẩm dành cho chương trình Toán học 10 phần góc lượng giác</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#DIA"/>
+        <Literal>Địa lý</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#GDCD"/>
+        <Literal>Giáo dục công dân</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Chế Lan Viên - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>lvthan.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>0905337987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1965-06-01T01:01:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Chế Lan Viên - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Lê Văn Thẩn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Phú Yên</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>lvthan.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Lê Văn Thẩn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1965-06-01T01:01:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>1990</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>Phú Yên</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV01"/>
+        <Literal>0905337987</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Hà Thanh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>ltadoan.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>00988642157</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1983-07-27T01:01:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Diên Khánh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Hà Thanh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Lê Thị Anh Đoan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>ltadoan.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Lê Thị Anh Đoan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1983-07-27T01:01:01</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Diên Khánh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>2005</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>Diên Khánh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV02"/>
+        <Literal>00988642157</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Lê Chân - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>ntthang.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>09234776726382</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-11T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Lê Chân - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Nguyễn Thị Thúy Hằng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>ntthang.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Nguyễn Thị Thúy Hằng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1990-10-11T01:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV03"/>
+        <Literal>09234776726382</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>hbkim.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>0987502856</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-02-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Hoàng Bá Kim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>hbkim.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Hoàng Bá Kim</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1985-02-23T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV04"/>
+        <Literal>0987502856</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Mê Linh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>hthphuc.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>0905135486</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1971-03-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Hoàng Thị Hồng Phúc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Mê Linh - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>hthphuc.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Hoàng Thị Hồng Phúc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1971-03-08T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>1995</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV05"/>
+        <Literal>0905135486</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>hmtran.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1981-04-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Huỳnh Mẫn Trân</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>hmtran.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Huỳnh Mẫn Trân</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1981-04-21T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>2002</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV06"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Phước Đồng - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>ttqchau.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>0356008524</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-06-20T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Phong DDienf - Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Phước Đồng - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Trần Thị Quỳnh Châu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>ttqchau.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Trần Thị Quỳnh Châu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-06-20T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Phong DDienf - Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>Thừa Thiên Huế</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV07"/>
+        <Literal>0356008524</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>lhphong.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>09875432176</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-11-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Lưu Hải Phong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Quảng Bình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Vĩnh Điềm Trung - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>lhphong.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Lưu Hải Phong</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-11-10T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Quảng Bình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>2010</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>Quảng Bình</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV08"/>
+        <Literal>09875432176</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Trường Sơn - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>hdhthu.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>0987525416</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Huỳnh Diễm Hồng Thư</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Trường Sơn - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>hdhthu.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Huỳnh Diễm Hồng Thư</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1988-08-18T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>2012</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>Ninh Hòa - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV09"/>
+        <Literal>0987525416</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#DIA_CHI"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Trần Quý Cáp - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#EMAIL"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>tnthanh.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>0987665877645</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1971-12-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Nha Trang - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Trương Ngọc Thành</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Trần Quý Cáp - Nha Trang</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>tnthanh.c3lqdon@khanhhoa.edu.vn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#HO_TEN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Trương Ngọc Thành</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#dateTime">1971-12-02T00:00:00</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NOI_SINH"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Nha Trang - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>1994</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>Nha Trang - Khánh Hòa</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SDT"/>
+        <NamedIndividual IRI="#GV10"/>
+        <Literal>0987665877645</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#HOA_HOC"/>
+        <Literal>Hóa học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#HT"/>
+        <Literal>Hiệu trưởng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal>Kính viễn vọng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal>sản phẩm tham dự cuộc thi Khoa học kỹ thuật Tỉnh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_SP"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal>Kính viễn vọng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#link"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal></Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tom_tat"/>
+        <NamedIndividual IRI="#KH01LY"/>
+        <Literal>sản phẩm tham dự cuộc thi Khoa học kỹ thuật Tỉnh</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#KTCN"/>
+        <Literal>Kỹ thuật công nghiệp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#KTNN"/>
+        <Literal>Kỹ thuật nông nghiệp</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>D\Dropbox\Dropbox\SKKN_2019\skkn_2019_Chau.docx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>Nói về các mối liên hệ giữa toán học và tin học
+Giải các bài toán áp dụng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>Toán học và Tin học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_SP"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>Toán học và Tin học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#link"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>D\Dropbox\Dropbox\SKKN_2019\skkn_2019_Chau.docx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tom_tat"/>
+        <NamedIndividual IRI="#NCKH01TIN"/>
+        <Literal>Nói về các mối liên hệ giữa toán học và tin học
+Giải các bài toán áp dụng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#NGU_VAN"/>
+        <Literal>Ngữ văn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#PBTCB"/>
+        <Literal>Phó bí thư chi bộ</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#PBTĐT"/>
+        <Literal>Phó bí thư đoàn trường</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#PCTCĐ"/>
+        <Literal>Phó chủ tịch công đoàn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#PHT"/>
+        <Literal>Phó hiệu trưởng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#PTT"/>
+        <Literal>Phó tổ trưởng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#SINH_HOC"/>
+        <Literal>Sinh học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>D:\Dropbox\Dropbox\SKKN_2013\2013\detai_chau.doc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>Nội dung nói về các bài toán tìm đường đi ngắn nhất trên đồ thị</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>Tổng hợp các thuật toán tìm đường đi ngắn nhất</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_SP"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>Tổng hợp các thuật toán tìm đường đi ngắn nhất</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#link"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>D:\Dropbox\Dropbox\SKKN_2013\2013\detai_chau.doc</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tom_tat"/>
+        <NamedIndividual IRI="#SKKN1"/>
+        <Literal>Nội dung nói về các bài toán tìm đường đi ngắn nhất trên đồ thị</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>D:\Dropbox\Dropbox\skkn_2018\skkn_2018_chau.docx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>Một bài toán có thể có nhiều thuật toán để giải khác nhau. Hiệu quả về mặt thời gian khi giải một bài toán luôn là tiêu chí được ưu tiên hàng đầu. 
+Các thuật toán chỉ phát huy được hiệu quả tốt nhất khi sử dụng đúng cấu trúc dữ liệu phù hợp.
+Một trong những câu trúc dữ liệu thường được dùng khi muốn giảm độ phức tạp thuật toán là Stack. Việc sử dụng Stack một cách linh hoạt để áp dụng thêm vào những phương pháp giải khác nhau sẽ giúp tiết kiệm thời gian thực hiện chương trình.
+Dạng toán tìm Min/Max trong một đoạn tuyến tính thỉnh thoảng sẽ được gặp khi giải các bài toán trên các trang web hay một số kì thi học sinh giỏi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#SP"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>SỬ DỤNG STACK TÌM MIN/MAX TRONG ĐOẠN TUYẾN TÍNH ĐỂ GIẢI MỘT SỐ BÀI TOÁN TRONG BỒI DƯỠNG HỌC SINH GIỎI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_SP"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>SỬ DỤNG STACK TÌM MIN/MAX TRONG ĐOẠN TUYẾN TÍNH ĐỂ GIẢI MỘT SỐ BÀI TOÁN TRONG BỒI DƯỠNG HỌC SINH GIỎI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#link"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>D:\Dropbox\Dropbox\skkn_2018\skkn_2018_chau.docx</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#tom_tat"/>
+        <NamedIndividual IRI="#SKKN2"/>
+        <Literal>Một bài toán có thể có nhiều thuật toán để giải khác nhau. Hiệu quả về mặt thời gian khi giải một bài toán luôn là tiêu chí được ưu tiên hàng đầu. 
+Các thuật toán chỉ phát huy được hiệu quả tốt nhất khi sử dụng đúng cấu trúc dữ liệu phù hợp.
+Một trong những câu trúc dữ liệu thường được dùng khi muốn giảm độ phức tạp thuật toán là Stack. Việc sử dụng Stack một cách linh hoạt để áp dụng thêm vào những phương pháp giải khác nhau sẽ giúp tiết kiệm thời gian thực hiện chương trình.
+Dạng toán tìm Min/Max trong một đoạn tuyến tính thỉnh thoảng sẽ được gặp khi giải các bài toán trên các trang web hay một số kì thi học sinh giỏi.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#SU"/>
+        <Literal>Lịch sử</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#TD"/>
+        <Literal>Thể dục</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#TIN_HOC"/>
+        <Literal>Tin học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#TOAN_HOC"/>
+        <Literal>Toán học</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#TT"/>
+        <Literal>Tổ trưởng</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#TTCĐ"/>
+        <Literal>Tổ trưởng công đoàn</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_BM"/>
+        <NamedIndividual IRI="#VL"/>
+        <Literal>Vật lý</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#2015-2016"/>
+        <Literal>2015-2016</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#2016-2017"/>
+        <Literal>2016-2017</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#2017-2018"/>
+        <Literal>2017-2018</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#2018-2019"/>
+        <Literal>2018-2019</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#TEN_CV"/>
+        <NamedIndividual IRI="#2019-2020"/>
+        <Literal>2019-2020</Literal>
+    </DataPropertyAssertion>
+    <SubObjectPropertyOf>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+        <ObjectProperty abbreviatedIRI="owl:topObjectProperty"/>
+    </SubObjectPropertyOf>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#CV_co_GV"/>
+        <ObjectProperty IRI="#GV_co_CV"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#bm_co_gv"/>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <ObjectProperty IRI="#sp_thuoc_bm"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <ObjectProperty IRI="#la_tac_gia_cua"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#nam_co_sp"/>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <Class IRI="#TO_BO_MON"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <Class IRI="#SANPHAM"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <Class IRI="#SANPHAM"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#GV_co_CV"/>
+        <Class IRI="#CHUC_VU"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#bm_co_sp"/>
+        <Class IRI="#SANPHAM"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#duoc_viet_boi"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#thuoc_bo_mon"/>
+        <Class IRI="#TO_BO_MON"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#thuoc_ve_nam_hoc"/>
+        <Class IRI="#NAM_HOC"/>
+    </ObjectPropertyRange>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#DIA_CHI"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#EMAIL"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#HO_TEN"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#NOI_SINH"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#SDT"/>
+        <DataProperty IRI="#GIAOVIEN"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TEN_BM"/>
+        <DataProperty abbreviatedIRI="owl:topDataProperty"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#TEN_SP"/>
+        <DataProperty IRI="#SP"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#link"/>
+        <DataProperty IRI="#SP"/>
+    </SubDataPropertyOf>
+    <SubDataPropertyOf>
+        <DataProperty IRI="#tom_tat"/>
+        <DataProperty IRI="#SP"/>
+    </SubDataPropertyOf>
+    <DataPropertyDomain>
+        <DataProperty IRI="#DIA_CHI"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#EMAIL"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#GIAOVIEN"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#HO_TEN"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NOI_SINH"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#NamVaoNganh"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SDT"/>
+        <Class IRI="#GIAO_VIEN"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#SP"/>
+        <Class IRI="#SANPHAM"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TEN_BM"/>
+        <Class IRI="#TO_BO_MON"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TEN_CV"/>
+        <Class IRI="#CHUC_VU"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#TEN_SP"/>
+        <Class IRI="#SANPHAM"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#link"/>
+        <Class IRI="#SANPHAM"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#tom_tat"/>
+        <Class IRI="#SANPHAM"/>
+    </DataPropertyDomain>
+    <DisjointDataProperties>
+        <DataProperty IRI="#DIA_CHI"/>
+        <DataProperty IRI="#EMAIL"/>
+        <DataProperty IRI="#HO_TEN"/>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <DataProperty IRI="#NOI_SINH"/>
+        <DataProperty IRI="#SDT"/>
+    </DisjointDataProperties>
+    <DisjointDataProperties>
+        <DataProperty IRI="#DIA_CHI"/>
+        <DataProperty IRI="#EMAIL"/>
+        <DataProperty IRI="#HO_TEN"/>
+        <DataProperty IRI="#NGAY_SINH"/>
+        <DataProperty IRI="#QUE_QUAN"/>
+        <DataProperty IRI="#SDT"/>
+    </DisjointDataProperties>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal>bộ môn và sản phẩm</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S1</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#duoc_viet_boi"/>
+                <Variable IRI="#sp"/>
+                <Variable IRI="#GV"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#thuoc_bo_mon"/>
+                <Variable IRI="#GV"/>
+                <Variable IRI="#BM"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#sp_thuoc_bm"/>
+                <Variable IRI="#sp"/>
+                <Variable IRI="#BM"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+    <DLSafeRule>
+        <Annotation>
+            <AnnotationProperty IRI="http://swrl.stanford.edu/ontologies/3.3/swrla.owl#isRuleEnabled"/>
+            <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:comment"/>
+            <Literal></Literal>
+        </Annotation>
+        <Annotation>
+            <AnnotationProperty abbreviatedIRI="rdfs:label"/>
+            <Literal>S2</Literal>
+        </Annotation>
+        <Body>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#thuoc_bo_mon"/>
+                <Variable IRI="#GV"/>
+                <Variable IRI="#bm"/>
+            </ObjectPropertyAtom>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#la_tac_gia_cua"/>
+                <Variable IRI="#GV"/>
+                <Variable IRI="#sp"/>
+            </ObjectPropertyAtom>
+        </Body>
+        <Head>
+            <ObjectPropertyAtom>
+                <ObjectProperty IRI="#bm_co_sp"/>
+                <Variable IRI="#bm"/>
+                <Variable IRI="#sp"/>
+            </ObjectPropertyAtom>
+        </Head>
+    </DLSafeRule>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
